@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    // This dependency is found on compile classpath of this component and consumers.
+    // This dependency is found on compile classpath of this composite and consumers.
     compile 'com.google.guava:guava:22.0'
 
     // Use JUnit test framework

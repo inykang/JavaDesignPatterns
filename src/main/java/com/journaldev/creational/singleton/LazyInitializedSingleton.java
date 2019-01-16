@@ -1,4 +1,4 @@
-package com.journaldev.creation.singleton;
+package com.journaldev.creational.singleton;
 
 public class LazyInitializedSingleton {
     private static LazyInitializedSingleton instance;
