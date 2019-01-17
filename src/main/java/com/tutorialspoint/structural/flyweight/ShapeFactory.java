@@ -3,9 +3,6 @@ package com.tutorialspoint.structural.flyweight;
 import java.util.HashMap;
 
 public class ShapeFactory {
-
-    // Uncomment the compiler directive line and
-    // javac *.java will compile properly.
     // @SuppressWarnings("unchecked")
     private static final HashMap circleMap = new HashMap();
 
