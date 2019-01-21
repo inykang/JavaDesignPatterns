@@ -32,8 +32,7 @@ public class ChannelCollectionImpl implements ChannelCollection {
         private List<Channel> channels;
         private int position;
 
-        public ChannelIteratorImpl(ChannelTypeEnum ty,
-                                   List<Channel> channelsList) {
+        public ChannelIteratorImpl(ChannelTypeEnum ty, List<Channel> channelsList) {
             this.type = ty;
             this.channels = channelsList;
         }

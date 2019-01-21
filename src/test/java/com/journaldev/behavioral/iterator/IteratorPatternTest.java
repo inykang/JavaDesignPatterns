@@ -6,6 +6,7 @@ public class IteratorPatternTest {
     @Test
     public void main() {
         ChannelCollection channels = populateChannels();
+
         ChannelIterator baseIterator = channels.iterator(ChannelTypeEnum.ALL);
         while (baseIterator.hasNext()) {
             Channel c = baseIterator.next();
@@ -13,6 +14,7 @@ public class IteratorPatternTest {
         }
 
         System.out.println("******");
+
         // Channel Type Iterator
         ChannelIterator englishIterator = channels.iterator(ChannelTypeEnum.ENGLISH);
         while (englishIterator.hasNext()) {
